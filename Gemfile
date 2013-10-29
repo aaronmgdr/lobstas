@@ -22,7 +22,7 @@ gem "unicorn"
 # for asset compilation
 gem "uglifier"
 
-gem "nokogiri"
+gem "nokogiri", "1.6" 
 gem "htmlentities"
 gem "rdiscount"
 
@@ -36,4 +36,5 @@ group :test, :development do
   gem "rspec-rails", "~> 2.6"
   gem "machinist"
   gem "sqlite3"
+  gem 'hirb'
 end
